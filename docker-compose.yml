@@ -9,8 +9,8 @@ services:
       - "8000:8000"
     depends_on:
       - db
-    env_file:
-      - ./backend/.env
+    environment:
+    VITE_API_URL: http://localhost:8000
 
   frontend:
     build:
