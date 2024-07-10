@@ -83,3 +83,11 @@ To deploy the application on AWS and set up HTTPS, follow these steps:
 
 - Obtain a domain name from a registrar like AfraidDNS.
 - Configure DNS records to point to your Instance IP address.
+
+## Nginx Configuration
+
+Modify Nginx configuration to handle routing for frontend and backend services, ensuring:
+
+- Frontend serves on root (http://domain/)
+- Backend APIs proxy to `/api` (http://domain/api/)
+- Adminer accessible via subdomain (http://db.domain/)
