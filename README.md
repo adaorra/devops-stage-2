@@ -65,11 +65,11 @@ To deploy the application on AWS and set up HTTPS, follow these steps:
 
 - SSH into your Instance:
   ```
+  using the access keys you can use putty or mobaxterm
 - Update your instance
    ```
   sudo apt update
   ``` 
-  ```
 - Clone your repository in the instance:
   ```
   git clone <repository-url>
