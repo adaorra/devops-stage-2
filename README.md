@@ -26,7 +26,7 @@ This repository contains Docker configuration files and setup instructions for d
 
 ## Prerequisites
 
-Make sure you have installed the following tools and dependencies:
+Ensure you have installed the following tools and dependencies:
 
 - Docker
 - Docker Compose
